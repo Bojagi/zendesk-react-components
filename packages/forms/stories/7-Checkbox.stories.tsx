@@ -15,7 +15,10 @@ import { ICheckboxStoryProps, CHECKBOX_ARGS, CHECKBOX_ARGS_TYPES } from './story
 export default {
   title: 'Components/Forms/Checkbox',
   component: Checkbox,
-  subcomponents: { Field, Label, Hint, Message, Checkbox }
+  subcomponents: { Field, Label, Hint, Message, Checkbox },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<ICheckboxStoryProps & ICheckboxProps> = ({

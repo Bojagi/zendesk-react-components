@@ -27,6 +27,9 @@ export default {
   subcomponents: {
     Fieldset,
     'Fieldset.Legend': Fieldset.Legend
+  },
+  parameters: {
+    layout: 'padded'
   }
 } as Meta;
 
