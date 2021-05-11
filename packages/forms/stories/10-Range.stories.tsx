@@ -15,7 +15,10 @@ import { IRangeStoryProps, RANGE_ARGS, RANGE_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/Range',
   component: Range,
-  subcomponents: { Field, Label, Hint, Message, Range }
+  subcomponents: { Field, Label, Hint, Message, Range },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IRangeStoryProps & InputHTMLAttributes<HTMLInputElement>> = ({

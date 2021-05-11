@@ -476,7 +476,10 @@ export const execute = async (args: IGitHubPagesArgs): Promise<string | undefine
 
 export default {
   title: 'Components/Typography/CodeBlock',
-  component: CodeBlock
+  component: CodeBlock,
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 interface IDefaultStoryProps {

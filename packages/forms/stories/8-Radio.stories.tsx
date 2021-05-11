@@ -15,7 +15,10 @@ import { ICheckboxStoryProps, CHECKBOX_ARGS, CHECKBOX_ARGS_TYPES } from './story
 export default {
   title: 'Components/Forms/Radio',
   component: Radio,
-  subcomponents: { Field, Label, Hint, Message, Radio }
+  subcomponents: { Field, Label, Hint, Message, Radio },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<ICheckboxStoryProps & InputHTMLAttributes<HTMLInputElement>> = ({

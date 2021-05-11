@@ -14,7 +14,10 @@ import { Alert, Title as AlertTitle } from '@zendeskgarden/react-notifications';
 
 export default {
   title: 'Components/Tooltips',
-  subcomponents: { Tooltip, Title, Paragraph }
+  subcomponents: { Tooltip, Title, Paragraph },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 type TOOLTIP_SIZE = 'default' | 'small' | 'medium' | 'large' | 'extra-large';

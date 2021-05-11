@@ -22,7 +22,10 @@ import { IRangeStoryProps, RANGE_ARGS, RANGE_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/MultiThumbRange',
   component: MultiThumbRange,
-  subcomponents: { Field, Label, Hint, Message, MultiThumbRange }
+  subcomponents: { Field, Label, Hint, Message, MultiThumbRange },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IRangeStoryProps & IMultiThumbRangeProps> = ({

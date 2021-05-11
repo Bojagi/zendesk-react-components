@@ -14,7 +14,10 @@ import { IInputStoryProps, INPUT_ARGS, INPUT_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/Input',
   component: Input,
-  subcomponents: { Field, Label, Hint, Message, Input }
+  subcomponents: { Field, Label, Hint, Message, Input },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IInputStoryProps & IInputProps> = ({
