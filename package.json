@@ -36,7 +36,7 @@
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.13.12",
     "@babel/preset-react": "7.13.13",
-    "@bojagi/cli": "^0.16.1",
+    "@bojagi/cli": "^0.17.1",
     "@rollup/plugin-commonjs": "18.0.0",
     "@rollup/plugin-node-resolve": "11.2.1",
     "@rollup/plugin-replace": "2.4.2",
