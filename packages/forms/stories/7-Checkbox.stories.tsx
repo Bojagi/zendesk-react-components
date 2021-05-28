@@ -27,6 +27,7 @@ export const Default: Story<ICheckboxStoryProps & ICheckboxProps> = ({
   validation,
   isRegular,
   isHidden,
+  isCompact,
   showHint,
   showMessage
 }) => {
@@ -35,7 +36,7 @@ export const Default: Story<ICheckboxStoryProps & ICheckboxProps> = ({
       <Row style={{ minHeight: 450 }}>
         <Col lg={4} offsetLg={4} md={6} offsetMd={3}>
           <Field>
-            <Checkbox disabled={disabled} indeterminate={indeterminate}>
+            <Checkbox disabled={disabled} indeterminate={indeterminate} isCompact={isCompact}>
               <Label hidden={isHidden} isRegular={isRegular}>
                 Checkbox
               </Label>

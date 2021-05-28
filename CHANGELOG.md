@@ -11,6 +11,70 @@ _Note: Gaps between patch versions are faulty, broken or test releases._
 
 <!-- DO NOT MODIFY BELOW THIS COMMENT -->
 <!-- insert-new-changelog-here -->
+## v8.37.1 (2021-05-26)
+
+#### :bug: Bug Fix
+
+- `chrome`
+  - [#1117](https://github.com/zendeskgarden/react-components/pull/1117) fix(chrome): recalculate height of subnavs when children change ([@hzhu](https://github.com/hzhu))
+- `buttons`, `forms`
+  - [#1091](https://github.com/zendeskgarden/react-components/pull/1091) fix(forms, buttons): finesse component group z-index transitions ([@jzempel](https://github.com/jzempel))
+
+#### :seedling: Internal
+
+- Other
+  - [#1115](https://github.com/zendeskgarden/react-components/pull/1115) chore(deps): update dependency @rollup/plugin-node-resolve to v13 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1114](https://github.com/zendeskgarden/react-components/pull/1114) fix(deps): update gatsby monorepo (major) ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1113](https://github.com/zendeskgarden/react-components/pull/1113) chore(deps): update dependency @rollup/plugin-commonjs to v19 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1111](https://github.com/zendeskgarden/react-components/pull/1111) chore(deps): update node orb to v4.4.0 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1109](https://github.com/zendeskgarden/react-components/pull/1109) chore(deps): update storybook monorepo to v6.2.9 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1108](https://github.com/zendeskgarden/react-components/pull/1108) chore(deps): update dependency ts-jest to v26.5.6 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1107](https://github.com/zendeskgarden/react-components/pull/1107) chore(deps): update dependency micromatch to v4.0.4 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1106](https://github.com/zendeskgarden/react-components/pull/1106) chore(deps): update dependency jest-styled-components to v7.0.4 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1098](https://github.com/zendeskgarden/react-components/pull/1098) chore(deps): update dependency @types/react-dom to v17.0.5 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1105](https://github.com/zendeskgarden/react-components/pull/1105) chore(deps): update dependency glob to v7.1.7 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1104](https://github.com/zendeskgarden/react-components/pull/1104) chore(deps): update dependency fork-ts-checker-webpack-plugin to v6.2.10 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1103](https://github.com/zendeskgarden/react-components/pull/1103) chore(deps): update dependency eslint-plugin-react to v7.23.2 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1102](https://github.com/zendeskgarden/react-components/pull/1102) chore(deps): update dependency eslint-plugin-jest to v24.3.6 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1101](https://github.com/zendeskgarden/react-components/pull/1101) chore(deps): update dependency chalk to v4.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1100](https://github.com/zendeskgarden/react-components/pull/1100) chore(deps): update dependency @zendeskgarden/svg-icons to v6.30.2 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1096](https://github.com/zendeskgarden/react-components/pull/1096) chore(deps): update dependency @types/jest to v26.0.23 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1094](https://github.com/zendeskgarden/react-components/pull/1094) chore(deps): update dependency @testing-library/react-hooks to v5.1.3 ([@renovate[bot]](https://github.com/apps/renovate))
+  - [#1093](https://github.com/zendeskgarden/react-components/pull/1093) chore(deps): update dependency @testing-library/react to v11.2.7 ([@renovate[bot]](https://github.com/apps/renovate))
+- `accordions`, `breadcrumbs`, `buttons`, `chrome`, `colorpickers`, `datepickers`, `dropdowns`, `forms`, `modals`, `notifications`, `pagination`, `tables`, `tags`
+  - [#1110](https://github.com/zendeskgarden/react-components/pull/1110) chore(deps): update dependency @zendeskgarden/svg-icons to v6.30.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- `tables`
+  - [#1099](https://github.com/zendeskgarden/react-components/pull/1099) chore(deps): update dependency @types/react-window to v1.8.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- `datepickers`
+  - [#1095](https://github.com/zendeskgarden/react-components/pull/1095) chore(deps): update dependency @testing-library/user-event to v13.1.9 ([@renovate[bot]](https://github.com/apps/renovate))
+## v8.37.0 (2021-05-12)
+
+#### :rocket: New Feature
+
+- `forms`
+  - [#1088](https://github.com/zendeskgarden/react-components/pull/1088) feat(forms): add compact styling to Radio, Checkbox, and Toggle components ([@jzempel](https://github.com/jzempel))
+  - [#1076](https://github.com/zendeskgarden/react-components/pull/1076) feat(forms): add new fieldset & legend component ([@hzhu](https://github.com/hzhu))
+- `buttons`, `colorpickers`, `dropdowns`, `forms`
+  - [#1081](https://github.com/zendeskgarden/react-components/pull/1081) feat(buttons,colorpickers,dropdowns,forms): add support for neutral button styling ([@jzempel](https://github.com/jzempel))
+
+#### :bug: Bug Fix
+
+- `dropdowns`
+  - [#1083](https://github.com/zendeskgarden/react-components/pull/1083) fix(dropdowns): handle combobox controlled open ([@jzempel](https://github.com/jzempel))
+
+#### :seedling: Internal
+
+- Other
+  - [#1087](https://github.com/zendeskgarden/react-components/pull/1087) chore(deps): bump hosted-git-info from 2.8.5 to 2.8.9 in /examples/gatsby ([@dependabot[bot]](https://github.com/apps/dependabot))
+  - [#1086](https://github.com/zendeskgarden/react-components/pull/1086) chore(deps): bump ua-parser-js from 0.7.21 to 0.7.28 in /examples/gatsby ([@dependabot[bot]](https://github.com/apps/dependabot))
+  - [#1085](https://github.com/zendeskgarden/react-components/pull/1085) chore(deps): bump lodash from 4.17.19 to 4.17.21 in /examples/gatsby ([@dependabot[bot]](https://github.com/apps/dependabot))
+  - [#1084](https://github.com/zendeskgarden/react-components/pull/1084) chore(deps): bump url-parse from 1.4.7 to 1.5.1 in /examples/gatsby ([@dependabot[bot]](https://github.com/apps/dependabot))
+  - [#1082](https://github.com/zendeskgarden/react-components/pull/1082) chore(demo): restore coverage report ([@jzempel](https://github.com/jzempel))
+  - [#1077](https://github.com/zendeskgarden/react-components/pull/1077) chore(deps): bump ssri from 6.0.1 to 6.0.2 in /examples/gatsby ([@dependabot[bot]](https://github.com/apps/dependabot))
+- `.template`
+  - [#1080](https://github.com/zendeskgarden/react-components/pull/1080) chore(template): update yarn new ([@hzhu](https://github.com/hzhu))
+- `dropdowns`
+  - [#1078](https://github.com/zendeskgarden/react-components/pull/1078) chore(dropdowns): update lock & upgrade downshift ([@hzhu](https://github.com/hzhu))
 ## v8.36.2 (2021-04-21)
 
 #### :bug: Bug Fix
