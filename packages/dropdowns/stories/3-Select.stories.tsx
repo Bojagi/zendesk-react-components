@@ -10,7 +10,10 @@ import { Select } from '@zendeskgarden/react-dropdowns';
 
 export default {
   title: 'Components/Dropdowns/Select',
-  component: Select
+  component: Select,
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export { Default } from './examples/Select/Default';

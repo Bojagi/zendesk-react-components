@@ -22,7 +22,10 @@ import { IInputStoryProps, INPUT_ARGS, INPUT_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/FauxInput',
   component: FauxInput,
-  subcomponents: { Field, Label, Hint, Message, FauxInput }
+  subcomponents: { Field, Label, Hint, Message, FauxInput },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IInputStoryProps & IFauxInputProps> = ({

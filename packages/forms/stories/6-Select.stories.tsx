@@ -15,7 +15,10 @@ import { IInputStoryProps, INPUT_ARGS, INPUT_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/Select',
   component: Select,
-  subcomponents: { Field, Label, Hint, Message, Select }
+  subcomponents: { Field, Label, Hint, Message, Select },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IInputStoryProps & ISelectProps> = ({

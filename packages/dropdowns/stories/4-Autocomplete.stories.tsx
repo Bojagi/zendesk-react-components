@@ -10,7 +10,10 @@ import { Autocomplete } from '@zendeskgarden/react-dropdowns';
 
 export default {
   title: 'Components/Dropdowns/Autocomplete',
-  component: Autocomplete
+  component: Autocomplete,
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export { Default } from './examples/Autocomplete/Default';

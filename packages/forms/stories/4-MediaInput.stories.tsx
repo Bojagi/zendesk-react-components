@@ -23,7 +23,10 @@ import { IInputStoryProps, INPUT_ARGS, INPUT_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/MediaInput',
   component: MediaInput,
-  subcomponents: { Field, Label, Hint, Message, MediaInput }
+  subcomponents: { Field, Label, Hint, Message, MediaInput },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IInputStoryProps & IMediaInputProps> = ({

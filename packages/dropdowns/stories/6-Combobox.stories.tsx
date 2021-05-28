@@ -10,7 +10,10 @@ import { Combobox } from '@zendeskgarden/react-dropdowns';
 
 export default {
   title: 'Components/Dropdowns/Combobox',
-  component: Combobox
+  component: Combobox,
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export { Default } from './examples/Combobox/Default';

@@ -12,7 +12,10 @@ import { Col, Grid, Row } from '@zendeskgarden/react-grid';
 
 export default {
   title: 'Components/Notifications/Notification',
-  component: Notification
+  component: Notification,
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story = ({ type, isRegular, isMultiLine }) => (

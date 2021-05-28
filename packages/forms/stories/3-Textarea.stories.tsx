@@ -14,7 +14,10 @@ import { IInputStoryProps, INPUT_ARGS, INPUT_ARG_TYPES } from './story-types';
 export default {
   title: 'Components/Forms/Textarea',
   component: Textarea,
-  subcomponents: { Field, Label, Hint, Message, Textarea }
+  subcomponents: { Field, Label, Hint, Message, Textarea },
+  parameters: {
+    layout: 'padded'
+  }
 } as Meta;
 
 export const Default: Story<IInputStoryProps & ITextareaProps> = ({
