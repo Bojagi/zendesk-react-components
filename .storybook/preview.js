@@ -12,6 +12,7 @@ import { ThemeProvider, DEFAULT_THEME } from '../packages/theming/src';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
+  layout: 'padded',
   backgrounds: {
     disable: true,
     grid: { disable: true }
